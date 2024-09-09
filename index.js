@@ -1,3 +1,4 @@
-console.log('Hello World!');
+import readlineSync from 'readline-sync';
 
-console.log('test');
+const name = readlineSync.question(`${'Как Вас зовут?\nОтвет:'} `);
+console.log(`Привет, ${name}`);
